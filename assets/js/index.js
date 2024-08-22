@@ -12,8 +12,5 @@ botonMenos.addEventListener("click", () => {
   if (suma > 0) {
     suma--;
     quantity.innerHTML = suma;
-    /* total = suma * precio;
-    valorActual.innerHTML = total;
-    console.log(total);*/
   }
 });
